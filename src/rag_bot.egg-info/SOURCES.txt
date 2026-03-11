@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/rag_bot/__init__.py
+src/rag_bot.egg-info/PKG-INFO
+src/rag_bot.egg-info/SOURCES.txt
+src/rag_bot.egg-info/dependency_links.txt
+src/rag_bot.egg-info/requires.txt
+src/rag_bot.egg-info/top_level.txt
