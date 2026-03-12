@@ -22,10 +22,14 @@ setup(
     # Requirements
     python_requires=">=3.10",
     install_requires=[
-    "fastapi>=0.104.0",          # Add this
-    "uvicorn[standard]>=0.24.0",  # Add this
+    "fastapi>=0.104.0",
+    "uvicorn[standard]>=0.24.0",
     "langchain>=0.1.0",
     "langchain-community>=0.0.20",
+    "langchain-groq>=0.0.1",        # Add this
+    "langchain-openai>=0.0.5",      # Add this
+    "langchain-huggingface>=0.0.1", # Add this
+    "langchain-chroma>=0.1.0",      # Add this
     "chromadb>=0.4.0",
     "sentence-transformers>=2.2.0",
     "streamlit>=1.29.0",
