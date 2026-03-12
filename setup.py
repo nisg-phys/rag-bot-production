@@ -22,18 +22,20 @@ setup(
     # Requirements
     python_requires=">=3.10",
     install_requires=[
-        "langchain>=0.1.0",
-        "langchain-community>=0.0.20",
-        "chromadb>=0.4.0",
-        "sentence-transformers>=2.2.0",
-        "streamlit>=1.29.0",
-        "python-dotenv>=1.0.0",
-        "pydantic>=2.0.0",
-        "pydantic-settings>=2.0.0",
-        "PyYAML>=6.0",
-        "structlog>=23.1.0",
-        "tenacity>=8.2.0",
-    ],
+    "fastapi>=0.104.0",          # Add this
+    "uvicorn[standard]>=0.24.0",  # Add this
+    "langchain>=0.1.0",
+    "langchain-community>=0.0.20",
+    "chromadb>=0.4.0",
+    "sentence-transformers>=2.2.0",
+    "streamlit>=1.29.0",
+    "python-dotenv>=1.0.0",
+    "pydantic>=2.0.0",
+    "pydantic-settings>=2.0.0",
+    "PyYAML>=6.0",
+    "structlog>=23.1.0",
+    "tenacity>=8.2.0",
+],
     
     # Development dependencies
     extras_require={
