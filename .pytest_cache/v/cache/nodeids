@@ -1,0 +1,4 @@
+[
+  "tests/integration/test_api.py::test_query_endpoint",
+  "tests/integration/test_api.py::test_root_endpoint"
+]
